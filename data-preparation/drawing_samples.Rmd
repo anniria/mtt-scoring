@@ -39,8 +39,10 @@ data <- read_csv("{FILE_PATH}")
 
 # select relevant data
 # remove NAs 
+# filter narratives with more than 20 words 
 data <- data %>%
-  select(ResponseId, trial, text) %>%
+  select(ResponseId, trial, text, WC) %>%
+  filter(WC >= 20) %>%
   na.omit()
 
 # create data groups related to trial types
