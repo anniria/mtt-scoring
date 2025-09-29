@@ -18,4 +18,4 @@ To run the code (see subfolder **/code**) in the correct order, follow these ste
    - Run `processing-manual-scoring.ipynb` to process manual scoring data.
 
 ## Proof of Concept
-Whether this pipeline yields the intended results was evaluated in a proof-of-concept study. An aggregated dataset and the analysis code are available on OSF: [OSF Project](https://osf.io/your-project-link)
+Whether this pipeline yields the intended results was evaluated in a proof-of-concept study. An aggregated dataset and the analysis code are available on OSF: [OSF Project](https://osf.io/z97vj/)
